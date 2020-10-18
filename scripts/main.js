@@ -26,7 +26,7 @@ let miTitulo = document.querySelector( 'h1');
 function estableceNombreUsuario() {
     let miNombre = prompt('Por favor, ingresa tu nombre.');
     localStorage.setItem('nombre', miNombre);
-    miTitulo.textContent = 'Mozilla es genial,' + miNombre;
+    miTitulo.textContent = miNombre + ' mas puyul';
 }
 
 if (!localStorage.getItem('nombre')) {
